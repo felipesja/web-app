@@ -47,7 +47,8 @@ public static class ServiceExtensions
 
         // Serviços do Identity
         services.AddIdentityApiEndpoints<IdentityUser>()
-                .AddEntityFrameworkStores<WebAppDbContext>();
+                .AddEntityFrameworkStores<WebAppDbContext>()
+                .AddDefaultTokenProviders();
 
         // Serviços customizados
         services.AddSingleton<IProductService, ProductService>();
