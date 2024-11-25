@@ -43,7 +43,7 @@ public static class ServiceExtensions
         // Serviços do banco de dados
         services.AddDbContext<WebAppDbContext>(db =>
             db.UseSqlServer(configuration.GetConnectionString("WebAppConnectionString")),
-            ServiceLifetime.Singleton);
+            ServiceLifetime.Scoped);
 
         // Serviços do Identity
         services.AddIdentityApiEndpoints<IdentityUser>()
@@ -51,7 +51,7 @@ public static class ServiceExtensions
                 .AddDefaultTokenProviders();
 
         // Serviços customizados
-        services.AddSingleton<IProductService, ProductService>();
+        services.AddScoped<IProductService, ProductService>();
 
         // Autorizações
         services.AddAuthorization();

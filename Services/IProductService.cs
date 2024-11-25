@@ -1,6 +1,7 @@
-﻿using webapp.Model;
+﻿using webapp.Domain;
 
-namespace webapp.Services {
+namespace webapp.Services
+{
     public interface IProductService {
 
         IList<Product> GetProducts();
