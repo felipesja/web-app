@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using webapp.Model;
+using WebApp.Web.Model;
 
-namespace webapp.Endpoints
+namespace WebApp.Web.Endpoints
 {
     public static class AuthEndpoints
     {

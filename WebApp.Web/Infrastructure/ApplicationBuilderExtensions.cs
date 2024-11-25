@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using webapp.Endpoints;
+using WebApp.Web.Endpoints;
 
-namespace webapp.Infrastructure;
+namespace WebApp.Web.Infrastructure;
 
 public static class ApplicationBuilderExtensions
 {

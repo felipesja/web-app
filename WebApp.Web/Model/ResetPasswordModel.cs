@@ -1,4 +1,4 @@
-﻿namespace webapp.Model
+﻿namespace WebApp.Web.Model
 {
     public class ResetPasswordModel
     {

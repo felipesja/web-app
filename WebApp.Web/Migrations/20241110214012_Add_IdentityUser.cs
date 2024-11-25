@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace webapp.Migrations
+namespace WebApp.Migrations
 {
     /// <inheritdoc />
     public partial class Add_IdentityUser : Migration

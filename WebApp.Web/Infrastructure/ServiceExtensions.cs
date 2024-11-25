@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using webapp.Data;
-using webapp.Services;
+using WebApp.Web.Data;
+using WebApp.Web.Services;
 
-namespace webapp.Infrastructure;
+namespace WebApp.Web.Infrastructure;
 
 public static class ServiceExtensions
 {
